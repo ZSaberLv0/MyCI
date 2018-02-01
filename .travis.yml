@@ -1,10 +1,10 @@
-- language: cpp
-  env:
-    - ZF_BUILD=CI
-  os: linux
-  sudo: required
-  compiler: clang
-  script:
-    - chmod +x vim-plug-automerge.sh;
-      ./vim-plug-automerge.sh
+language: cpp
+env:
+  - ZF_BUILD=CI
+os: linux
+sudo: required
+compiler: clang
+script:
+  - chmod +x vim-plug-automerge.sh;
+    ./vim-plug-automerge.sh
 
