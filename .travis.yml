@@ -3,6 +3,8 @@ env:
   - ZF_BUILD=CI
 os: linux
 script:
-  - chmod +x vim-plug-automerge.sh;
-    ./vim-plug-automerge.sh
+  - chmod +x vim_plug.sh;
+    ./vim_plug.sh
+  - chmod +x ycm_conf_default.sh;
+    ./ycm_conf_default.sh
 
