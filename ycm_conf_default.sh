@@ -7,7 +7,8 @@ fi
 
 _OLD_DIR=$(pwd)
 rm -rf dotfiles
-git clone https://github.com/JDevlieghere/dotfiles
+# git clone https://github.com/JDevlieghere/dotfiles
+git clone https://github.com/ZSaberLv0/dotfiles
 
 rm -rf ycm_conf_default
 git clone https://github.com/ZSaberLv0/ycm_conf_default
