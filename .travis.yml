@@ -3,6 +3,6 @@ env:
   - ZF_BUILD=CI
 os: linux
 script:
-  - chmod +x ycm_conf_default.sh;
-    ./ycm_conf_default.sh
+  - chmod +x ci.sh;
+    ./ci.sh
 
